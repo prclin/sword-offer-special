@@ -3,7 +3,7 @@ package simple;
 public class GetIntersectionNode {
 
     ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        if (headA==null||headA==null) return null;
+        if (headA==null||headB==null) return null;
         ListNode p1=headA,p2=headB;
         while (p1!=p2){
             p1=p1==null?headB:p1.next;
