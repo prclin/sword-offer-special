@@ -1,4 +1,4 @@
-package simple;
+package moderate;
 
 import java.util.HashMap;
 import java.util.Map;
